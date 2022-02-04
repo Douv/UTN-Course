@@ -1,0 +1,30 @@
+
+
+img{
+    width: 120px;
+}
+
+.bigBox{
+    width: 30%;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 110px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    width: 30%;
+    height: 120px;
+    margin-left: 70%;
+    color: #ffff;
+}
+#red{
+    background-color: #ff0000;
+}
+#blue{
+    background-color: #0000ff;
+}
+#green{
+    background-color: #008000;
+}
