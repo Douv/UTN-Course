@@ -1,0 +1,15 @@
+.menu{
+    background-color: rgb(10, 10, 10);
+}
+.secondSection, .thirdSection{
+    padding-top: 25px;
+}
+.both{
+    background-color: bisque;
+}
+.pie{
+    background-color: black;
+    color: #ffff;
+    text-justify: center;
+    height: 100px;
+}
