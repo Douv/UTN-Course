@@ -18,6 +18,9 @@ img{
     height: 120px;
     margin-left: 70%;
     color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #red{
     background-color: #ff0000;
