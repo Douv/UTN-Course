@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Exercices</title>
+    
+    <style>
+        body{
+            text-align: center;
+            margin: auto;
+            background-color: #e5c1be;
+        }
+        .boxes{
+            
+            display: flex;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            margin-left: 10px;
+        }
+        #firstBox{
+            background-color: rgb(131, 27, 131);
+        }
+        #secondBox{
+            background-color: #03A696;
+        }
+        #thirdBox{
+            background-color: #BF665E;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <p>Crear un documento html con 3 cuadrados que, al ser clickeados, cambien el color de fondo del documento. Cada cuadrado debera tener un color distinto.
+        </p>
+    </div>
+    <div class="boxes">
+        <div class="box" id="firstBox" onclick="Firstcolor()"></div>
+        <div class="box" id="secondBox" onclick="Secondcolor()"></div>
+        <div class="box" id="thirdBox" onclick="Thirdcolor()"></div>
+    </div>
+
+    <script type='text/javascript'>
+        function Firstcolor() {
+            var element = document.body;
+            element.style.backgroundColor='rgb(131, 27, 131)';
+        }
+        function Secondcolor() {
+            var element = document.body;
+            element.style.backgroundColor='#03A696';
+        }
+        function Thirdcolor() {
+            var element = document.body;
+            element.style.backgroundColor='#BF665E';
+        }
+    </script>
+</body>
+</html>
